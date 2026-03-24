@@ -2,6 +2,8 @@
 
 TUI for controlling NZXT 2023 RGB Controller fan LEDs via liquidctl.
 
+![screenshot](screenshot.png)
+
 ## Setup
 
 ```
