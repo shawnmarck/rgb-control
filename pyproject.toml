@@ -1,0 +1,12 @@
+[project]
+name = "rgb-control"
+version = "1.0.0"
+description = "TUI color controller for NZXT RGB fans"
+requires-python = ">=3.12"
+dependencies = [
+    "textual>=3.0",
+    "liquidctl>=1.13",
+]
+
+[project.scripts]
+rgb-control = "rgb_control.app:main"
